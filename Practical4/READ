@@ -1,0 +1,3 @@
+A timed thread scheduler that preserves the context of the threads it switches. The program switches the current thread through
+an interrupt handler. The interrupt handler preserves the context of the threads i.e link register, stack pointer, CPSR and
+program counter.
